@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="mapstyles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="../../assets/images/Favicon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>OnlineZoo</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="header__wrapper">
+            <h1>online zoo</h1>
+            <a href = "../landing/index.html"><img class="header__img" src="../../assets/images/Logoheader.svg" alt="logo" /></a>
+            <div class="header__burger">
+                <span class="header__span"></span>
+            </div>
+            <nav class="header__nav">
+                <button class ="header__close-btn"></button>
+                <ul class="header__list">
+                    <li class ="header__item">
+                        <a class="header__link" href="../landing/index.html">about</a>
+                    </li>
+                    <li class ="header__item">
+                        <a class="header__link header__link-active"  href="#">map</a>
+                    </li>
+                    <li class ="header__item">
+                        <a class="header__link" href="../zoos/panda/panda.html">zoos</a>
+                    </li>
+                    <li class ="header__item">
+                        <a class="header__link" href="../contacts/contacts.html">contact us</a>
+                    </li>
+                    <li class ="header__item"> 
+                        <a  class="header__link" href=" https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">design</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social">
+                <ul class="social__list">
+                    <li><a class="social__img" href="http://youtube.com" target="_blank"><img src="../../assets/images/YouTube.svg"
+                                alt="youtubeicon" /></a></li>
+                    <li><a class="social__img" href="http://instagram.com" target="_blank"><img src="../../assets/images/Instagram.svg"
+                                alt="instaicon" /></a></li>
+                    <li><a class="social__img" href="http://facebook.com" target="_blank"><img src="../../assets/images/Facebook.svg"
+                                alt="facebookicon" /></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-wrapper">
+            <section class="section">
+                <h3 class="section__h3">find where are the animals live</h3>
+                <div class="section-background">
+                    <img class="section__img" src="../../assets/images/Map.png" alt="map">
+                <ul class="section__list">
+                    <li class="section__item"><a id="location-1" class="item__animal active tooltip2" data-tooltip2 = "Common name: Bold Eagle Range: Continental US" href ="../zoos/eagle/eagle1.html"><img class="item__img" src="../../assets/images/Eagle.png" alt="link" /></a></li>
+                    <li class="section__item"><a id="location-2" class="item__animal" href = "#"><img class="item__img"  src="../../assets/images/Alligator.png" alt="link" /></a></li>
+                    <li class="section__item"><a id="location-3" class="item__animal" href ="#"><img class="item__img"  src="../../assets/images/Lion.png" alt="link" /></a></li>
+                    <li class="section__item"><a id="location-4" class="item__animal tooltip2" data-tooltip2 = "Common name: Gorila Range: Western Africa" href = "../zoos/gorilla/gorilla1.html"><img class="item__img"  src="../../assets/images/Gorilla.png" alt="link" /></a></li>
+                    <li class="section__item"><a id="location-5" class="item__animal tooltip2" data-tooltip2 = "Common name: Lemur Range: Southeast Asia" href = "../zoos/lemur/lemur1.html"><img class="item__img"  src="../../assets/images/Lemur.png" alt="link" /></a></li>
+                    <li class="section__item"><a id="location-6" class="item__animal tooltip2" data-tooltip2 = "Common name: Giant Panda Range: Eastern Asia" href = "../zoos/panda/panda.html"><img class="item__img" src="../../assets/images/mapPanda.png" alt="link" /></a></li>
+                    <li class="section__item"><a id="location-7" class="item__animal" href = "#"><img class="item__img" src="../../assets/images/tiger.png" alt="link" /></a></li>
+                    <li class="section__item"><a id="location-8" class="item__animal" href = "#"><img class="item__img" src="../../assets/images/Coala.png" alt="link" /></a></li>
+                </ul>
+            </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__upper">
+                <div class="footer__logo">
+                    <ul class="footer__list1">
+                        <li class="footer__item1 tooltip" data-tooltip="Online Zoo"><img src="../../assets/images/Logo.svg" alt="logo" /></li>
+                        <li class="footer__item1 tooltip" data-tooltip="Yem Digital"><img src="../../assets/images/Yem Digital.svg" alt="Yem Digital" /></li>
+                        <li class="footer__item1 tooltip" data-tooltip="Rolling Scopes School"><img src="../../assets/images/rs_school_js logo.svg" alt="rs-school-js logo" /></li>
+                    </ul>
+                </div>
+                <div class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a class="footer__nav-link" href="../landing/index.html">about</a></li>
+                        <li><a class="footer__nav-link" href="#">map</a></li>
+                        <li><a class="footer__nav-link" href="../zoos/panda/panda.html">zoos</a></li>
+                        <li><a class="footer__nav-link" href="../contacts/contacts.html">contact us</a></li>
+                    </ul>
+                </div>
+                <button class="footer__button">
+                    <div class="button-text">Donate for volunteers</div>
+                    <div class="button-img"><svg class="footer__svg"></svg></div>
+                </button>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__lower">
+                <div class="footer__copyright">
+                    <ul class="footer__list1">
+                        <li class="footer__item3">&copy 2021 DinaK</li>
+                        <li class="footer__item3">&copy Yem Digital</li>
+                        <li class="footer__item3">&copy RSSchool</li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <ul class="footer__list">
+                        <li><a class="social__img" href="http://youtube.com" target="_blank"><img src="../../assets/images/YouTube.svg" alt="youtubeicon" /></a></li>
+                        <li><a class="social__img" href="http://instagram.com" target="_blank"><img src="../../assets/images/Instagram.svg" alt="instaicon" /></a></li>
+                        <li><a class="social__img" href="http://facebook.com" target="_blank"><img src="../../assets/images/Facebook.svg" alt="facebookicon" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>

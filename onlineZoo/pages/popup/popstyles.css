@@ -1,0 +1,289 @@
+/*POPUP
+
+.popup {
+    position: fixed;
+    width: 95vw;
+    height: 95vh;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-close {
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-donation-body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+    height: 815px;
+    width: 1160px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+}
+
+.popup-donation-main h3 {
+    color: #D26004;
+    text-align: center;
+     margin: 20px 251px 30px 261px;
+}
+
+.popup-donation-main p {
+    text-align: center;
+    margin: 30px 295px 50px 295px;
+}
+
+.popup-donation-main img {
+    margin-left: 80px; 
+}
+
+.popup2-body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    height: 819px;
+    width: 920px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+}
+
+.popup2-header {
+    width: 100%;
+    height: 135px;
+    background-color: #F58021;
+}
+
+.popup2-header h4 {
+    margin: 42px 201px;
+}
+
+.popup2-body p {
+    margin: 50px 590px 10px 123px;
+}
+
+.popup2-main {
+    height: 473px;
+    border-top: 1px solid #A4A8AE;
+}
+
+.popup2-main p {
+    margin: 10px 0px 10px 0px;
+   
+}
+form {
+    width: 682px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+form input, select {
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform:uppercase;
+    color: #ffffff;
+    background: #FFFFFF;
+    outline: none;
+}
+
+form input:focus, select:focus {
+    border: 1px solid #00A092;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 30px rgba(0, 160, 146, 0.3);
+}
+
+
+.popup2-donation-fixed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.popup2-donation-fixed input{
+    width: 80px;
+    height: 60px;
+    background-color: rgba(0, 160, 146, 0.5);
+    border: 1px solid rgba(0, 160, 146, 0.5);
+    border-radius: 5px;
+    
+}
+.popup2-donation-flex {
+   margin-bottom: 42px;
+}
+
+.popup2-donation-flex input[type="submit"] {
+    width: 200px;
+    height: 65px;
+    margin-right: 36px;
+    background-color: #00A092;
+    border: 1px solid #00A092;
+}
+.popup2-donation-flex input[type="text"] {
+    width: 193px;
+    height: 58px;
+    color: #000000;
+}
+
+.popup2-choose{
+    margin-bottom: 40px;
+}
+
+.popup2-choose input[type = "submit"] {
+    width: 200px;
+    height: 65px;
+    background-color:rgba(0, 160, 146, 0.5);
+    border: 1px solid rgba(0, 160, 146, 0.5);
+}
+
+.popup2-choose select {
+    width: 440px;
+    height: 65px;
+    margin-left: 36px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    padding-left: 106px;
+}
+
+input[type = "checkbox"] {
+  position: relative;
+  width:30px;
+  height: 30px;
+  cursor:pointer;
+}
+
+.popup2-choose select {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #A4A8AE;
+    padding-left: 106px;
+}
+
+.popup2-checkbox-label {
+    position: absolute;
+    top: 605px;
+    left: 170px;
+}
+
+.popup2-name label{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.popup2-name input{
+    margin-bottom: 51px;
+    width: 680px;
+    height: 60px;
+}
+
+.popup2-email label{
+    margin-bottom: 10px;
+}
+
+.popup2-email input{
+    margin-bottom: 10px;
+    width: 680px;
+    height: 60px;
+}
+
+
+.popup-step1-footer, .popup-step2-footer, .popup-step3-footer {
+    display: flex;
+   flex-direction: row;
+}
+
+.popup-step1-footer ul, .popup-step2-footer ul, .popup-step3-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50px;
+    height: 10px;
+    margin-left: 120px;
+    margin-top: 26px; 
+}
+
+.popup-step1-footer a {
+    margin-left: 325px ;
+}
+
+.popup-step2-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 74px;
+    margin-left: 55px;
+    margin-right: 70px;
+    color:#00A092;
+    text-decoration: underline;
+    text-transform: none;
+}
+
+.popup-step3-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 74px;
+    margin-left: 55px;
+    margin-right: 16px;
+    color:#00A092;
+    text-decoration: underline;
+    text-transform: none;
+}
+
+.popup-step3-footer button {
+    width: 359px;
+    height: 74px;
+    background-color: #D26004;
+}
+
+.popup2-cardnumber {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardnumber input{
+    width: 442px;
+    height: 65px;
+    margin-right: 40px;
+}
+
+.cvv input{
+    width: 198px;
+    height: 65px;
+    margin-bottom: 50px;
+}
+
+#month {
+    width: 201px;
+    height: 65px;
+    margin-right: 40px;
+    color: #000000;
+}
+
+#year {
+    width: 201px;
+    height: 65px;
+    color: #000000;
+}

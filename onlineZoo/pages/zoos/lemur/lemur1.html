@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="lemur1styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="icon" href="../../../assets/images/Favicon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>OnlineZoo</title>
+</head>
+<body>
+
+<!--Header-->
+<header id="header" class="header">
+    <div class="header__wrapper">
+        <h1>online zoo</h1>
+        <a href = "../../landing/index.html"><img class="header__img" src="../../../assets/images/Logoheader.svg" alt="logo" /></a>
+        <div class="header__burger">
+            <span class="header__span"></span>
+        </div>
+        <nav class="header__nav">
+            <button class ="header__close-btn"></button>
+            <ul class = "header__list">
+                <li class ="header__item">
+                    <a class="header__link" href="../../landing/index.html">about</a>
+                </li>
+                <li class ="header__item">
+                    <a class="header__link" href="../../map/mapIndex.html">map</a>
+                </li>
+                <li class ="header__item">
+                    <a class="header__link header__link-active" href="#">zoos</a>
+                </li>
+                <li class ="header__item">
+                    <a class="header__link" href="../../contacts/contacts.html">contact us</a>
+                </li>
+                <li class ="header__item">
+                    <a class="header__link" href=" https://www.figma.com/file/lnK11foY8Aoa6oOlDXovVN/Online-ZOO-Project">design</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="social">
+            <ul class="social__list">
+                <li><a class="social__img" href="http://youtube.com" target="_blank"><img
+                            src="../../../assets/images/YouTube.svg" alt="youtubeicon" /></a></li>
+                <li><a class="social__img" href="http://instagram.com" target="_blank"><img
+                            src="../../../assets/images/Instagram.svg" alt="instaicon" /></a></li>
+                <li><a class="social__img" href="http://facebook.com" target="_blank"><img
+                            src="../../../assets/images/Facebook.svg" alt="facebookicon" /></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+    
+<!--Main-->
+
+    <main class="main">
+        <div class="main__wrapper">
+            <section class="section1">
+                <div class="section1__header">
+                    <img class="section1__live-img" src="../../../assets/images/LIVE Badge.png" alt="livebage">
+                    <a class="section1__header-link" href="#"><img src="../../../assets/images/Group 17.png" alt="rightlink"></a>
+                </div>
+                <ul class="section1__list">
+                    <li class="section1__item" >
+                    <a class="section1__link" href="#">
+                        <div class="section1__outer-ring active">
+                            <div class="section1__inner-ring active">
+                                <img class="section1__ring-img" src="../../../assets/images/LemurBig.png" alt="LemurZoom">
+                            </div>
+                        </div>
+                        <div class="section1__small active">
+                            <img class="section1__small-img" src="../../../assets/images/LemurZoom.png" alt="PandaZoom">
+                        </div>
+                    </a>
+                </li>
+                    <li class="section1__item" >
+                        <a class="section1__link" href="../../zoos/panda/panda.html">
+                            <div class="section1__outer-ring">
+                                <div class="section1__inner-ring">
+                                    <img class="section1__ring-img" src="../../../assets/images/PandaBig.png" alt="PandaZoom">
+                                </div>
+                            </div>
+                            <div class="section1__small">
+                                <img class="section1__small-img" src="../../../assets/images/Panda.png" alt="PandaZoom">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section1__item">
+                        <a class="section1__link" href="../eagle/eagle1.html">
+                            <div class="section1__outer-ring">
+                                <div class="section1__inner-ring">
+                                    <img class="section1__ring-img" src="../../../assets/images/EagleBig.png" alt="EagleZoom">
+                                </div>
+                            </div>
+                            <div class="section1__small">
+                                <img class="section1__small-img" src="../../../assets/images/EagleZoom.png" alt="PandaZoom">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="section1__item">
+                        <a class="section1__link" href="../gorilla/gorilla1.html">
+                            <div class="section1__outer-ring">
+                                <div class="section1__inner-ring">
+                                    <img class="section1__ring-img" src="../../../assets/images/GorillaBig.png" alt="GorillaZoom">
+                                </div>
+                            </div>
+                            <div class="section1__small">
+                                <img class="section1__small-img" src="../../../assets/images/GorillaZoom.png" alt="PandaZoom">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="section1__footer">
+                    <a href="#body"><img src="../../../assets/images/Group 18.png" alt="closelink"></a>
+                </div>
+            </section>
+
+            <div class="main-page__wrapper">
+                <section class="section2">
+                    <div class="section2__header">
+                        <h3 class="section2__h3">lemurs cams</h3>
+                        <button class="section2__button">
+                            <div class="button-text">donate now</div>
+                            <div class="button-img">
+                                <svg class="section2__svg"></svg>
+                            </div>
+                        </button>
+                    </div>
+
+                    <div id="videobox" class="section2__videobox">
+                        <div class="video">
+                            <div class="video__overlay"></div>
+                            <iframe id="cam1" class="video__iframe" src="https://www.youtube.com/embed/E2CRx0OPp6s?showinfo=0"></iframe>
+                            <a class="video__link" href="#">
+                                <h5 class="video__h5">Andy, the ring-tailed lemurs in Madagascar, Lemuria Land cam 1</h5>
+                            </a>
+                            <div class="video__logo"><img class ="logo__img" src="../../../assets/images/Logo.svg" alt="logo"></div>
+                        </div>
+                    </div>
+                    <div class="slider__wrapper">
+                        <h4 class="slider__h4">More live views </h4>
+                        <div class="slider">
+                            <button id = "left" class="slider__button"><svg class="slider__svg-left"></svg></button>
+                            <div class="slider__box">
+                                <div class="overlay">
+                                    <div class="cam__logo">cam 1 <img class="cam__img" src="../../../assets/images/cam-logo.png" alt="logo camera"></div>
+                                    <div class="cam">
+                                        <iframe id="cam1" class="cam__iframe" src="https://www.youtube.com/embed/E2CRx0OPp6s"></iframe>
+                                    </div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="cam__logo">cam 2 <img class="cam__img" src="../../../assets/images/cam-logo.png" alt="logo camera"></div>
+                                    <div class="cam">
+                                        <iframe id=" cam2" class="cam__iframe" src="https://www.youtube.com/embed/E2CRx0OPp6s?start=10"></iframe>
+                                    </div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="cam__logo">cam 3 <img class="cam__img" src="../../../assets/images/cam-logo.png" alt="logo camera"></div>
+                                    <div class="cam">
+                                        <iframe id=" cam3" class="cam__iframe" src="https://www.youtube.com/embed/E2CRx0OPp6s"></iframe>
+                                    </div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="cam__logo">cam 4 <img class="cam__img" src="../../../assets/images/cam-logo.png" alt="logo camera"></div>
+                                    <div class="cam">
+                                        <iframe id=" cam4" class="cam__iframe" src="https://www.youtube.com/embed/E2CRx0OPp6s"></iframe>
+                                    </div>
+                                </div>
+                                <div class="overlay">
+                                    <div class="cam__logo">cam 5 <img class="cam__img" src="../../../assets/images/cam-logo.png" alt="logo camera"></div>
+                                    <div class="cam">
+                                        <iframe id=" cam5" class="cam__iframe" src="https://www.youtube.com/embed/E2CRx0OPp6s"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <button id = "right" class="slider__button"><svg class="slider__svg-right"></svg></button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+                <section class="section3">
+                    <div class="section3__wrapper">
+                        <div class="section3__donate1">
+                            <h4 class="section3__h4">provide andy the lemur with fruits!</h4>
+                            <p class="section3__p">More than 90% of lemur species are endangered and might face extinction in the nearest future. Watch the ring-tailed lemurs play and climb in this soothing setting and support them by donating for the fruits they adore.</p>
+                        </div>
+                        <div class="section3__donate2">
+                            Quick Donate
+                            <form class="section3__form">
+                                <label class ="section3__label" for="donate">$ </label>
+                                <input id="donate" class="section3__input" type="number" value="" min="10" max="1000" step="20"
+                                    placeholder="Donation Amount">
+                                <button class ="section3__button" type="submit">
+                                    <div class="button-img"><svg class="section3__svg"></svg></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="main-page2__wrapper">
+                <section class="section4">
+                    <div class="section4__info">
+                        <h4 class="section4__h4">did you know?</h4>
+                        <h6 class="section4__h6">A ring-tailed lemur mob will gather in open areas of the forest to sunbathe. They sit in what some call a "yoga position" with their bellies toward the sun and their arms and legs stretched out to the sides.</h6>
+                    </div>
+                </section>
+
+                <section class="section5">
+                    <div class="animal">
+                        <div class="animal__description">
+                            <div class="description__elem1">
+                                <h6 class="elem1__h6">Common name:</h6>
+                                <p class="elem1__p">Ring-Tailed Lemur</p>
+                            </div>
+                            <div class="description__elem1">
+                                <h6 class="elem1__h6">Scientific name:</h6>
+                                <p class="elem1__p">Lemur catta</p>
+                            </div>
+                            <div class="description__elem2">
+                                <h6 class="elem2__h6">Type:</h6>
+                                <p class="elem2__p">Mammals</p>
+                            </div>
+                            <div class="description__elem2">
+                                <h6 class="elem3__h6">Size:</h6>
+                                <p class="elem2__p">Head and body: 17.75 inches; tail: 21.75 inches</p>
+                            </div>
+                            <div class="description__elem2">
+                                <h6 class="elem4__h6">Diet:</h6>
+                                <p class="elem2__p">Herbivore</p>
+                            </div>
+                            <div class="description__elem2">
+                                <h6 class="elem2__h6">Habitat:</h6>
+                                <p class="elem2__p">Arid, open areas and forests</p>
+                            </div>
+                            <div class="description__elem2">
+                                <h6 class="elem3__h6">Range:</h6>
+                                <p class="elem2__p">Southeast Asia</p>
+                                <a class="elem2__link" href="../../map/mapIndex.html">
+                                    <div class="button-text">view map</div>
+                                    <div class="button-img"><svg class="animal__svg"></svg></div>
+                                </a>
+                            </div>
+
+                        </div>
+                        <img class="section5__img" src="../../../assets/images/imageLemur.png" alt="panda">
+                    </div>
+                    <div class="section5__info">
+                        <p>Ring-tailed lemurs are named for the 13 alternating black and white bands that adorn their tails. Unlike most other lemurs, ringtails spend 40 percent of their time on the ground, moving quadrupedally along the forest floor. Ring-tailed lemurs live in southwestern Madagascar, in arid, open areas and forests in territories that range from 15 to 57 acres (0.06 to 0.2 square kilometers) in size. As with all lemurs, olfactory communication is important for ringtails. Ring-tailed lemurs have scent glands on their wrists and chests that they use to mark their foraging routes. Ringtails eat leaves, flowers and insects. They can also eat fruit, herbs and small vertebrates.
+                            Females usually give birth to their first baby when they are three years old, and usually once a year every year after that. All adult females participate in raising the offspring of the group. The median life expectancy for a ring-tailed lemur is about 16 years.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__upper">
+                <div class="footer__logo">
+                    <ul class="footer__list1">
+                        <li class="footer__item1 tooltip" data-tooltip="Online Zoo"><img src="../../../assets/images/Logo.svg" alt="logo" /></li>
+                        <li class="footer__item1 tooltip" data-tooltip="Yem Digital"><img src="../../../assets/images/Yem Digital.svg" alt="Yem Digital" /></li>
+                        <li class="footer__item1 tooltip" data-tooltip="Rolling Scopes School"><img src="../../../assets/images/rs_school_js logo.svg" alt="rs-school-js logo" /></li>
+                    </ul>
+                </div>
+                <div class="footer__nav">
+                    <ul class="footer__list">
+                        <li><a class="footer__nav-link" href="../../landing/index.html">about</a></li>
+                        <li><a class="footer__nav-link" href="../../map/mapIndex.html">map</a></li>
+                        <li><a class="footer__nav-link" href="#">zoos</a></li>
+                        <li><a class="footer__nav-link" href="../../contacts/contacts.html">contact us</a></li>
+                    </ul>
+                </div>
+                <button class="footer__button">
+                    <div class="button-text">Donate for volunteers</div>
+                    <div class="button-img"><svg class="footer__svg"></svg></div>
+                </button>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__lower">
+                <div class="footer__copyright">
+                    <ul class="footer__list1">
+                        <li class="footer__item3">&copy 2021 DinaK</li>
+                        <li class="footer__item3">&copy Yem Digital</li>
+                        <li class="footer__item3">&copy RSSchool</li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <ul class="footer__list">
+                        <li><a class="social__img" href="http://youtube.com" target="_blank"><img src="../../../assets/images/YouTube.svg" alt="youtubeicon" /></a></li>
+                        <li><a class="social__img" href="http://instagram.com" target="_blank"><img src="../../../assets/images/Instagram.svg" alt="instaicon" /></a></li>
+                        <li><a class="social__img" href="http://facebook.com" target="_blank"><img src="../../../assets/images/Facebook.svg" alt="facebookicon" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../../landing/script.js"></script>
+
+</html>
