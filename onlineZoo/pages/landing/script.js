@@ -230,7 +230,7 @@ chooseFildSelectButton.addEventListener("click", ()=> {
 
 chooseFildArray.forEach(el => el.addEventListener("click", (e) => {
   e.path[1].classList.add('_req');
-  inputChooseFild.value = e.path[0].innerHTML;
+  inputChooseFild.value = e.target.innerHTML;
   submitChooseFild.classList.add("_req");
   closeFild(chooseFildList);
   e.path[1].classList.remove('_req');
